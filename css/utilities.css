@@ -1,0 +1,13 @@
+/* Background Transparent */
+.transparent-5{
+  --bs-bg-opacity: 0.5;
+}
+.transparent-8{
+  --bs-bg-opacity: 0.8;
+}
+.transparent-9{
+  --bs-bg-opacity: 0.9;
+}
+.bg-dark-blue{
+  background-color: #3c6382;
+}

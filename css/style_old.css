@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: "Space Mono", Arial, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #4d4d4d;
+}    
+#fh5co-about {
+    padding: 7em;
+    clear: both;
+}
+.container-fluid {
+    background-color: grey;
+    
+}
+
+section#about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.navbar-brand {
+    transition: 0.3s;
+    font-weight: bold;
+}
+.navbar-brand:hover {
+    color: maroon;
+}
+.tittle {
+    text-align: center;
+}

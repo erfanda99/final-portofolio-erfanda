@@ -1,0 +1,7 @@
+/* Bootstrap styling override */
+.btn{
+  border-radius: 0.2rem;
+}
+.bg-primary{
+  background-color: #2980b9 !important;
+}

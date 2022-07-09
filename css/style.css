@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: "Space Mono", Arial, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #4d4d4d;
+}    
+section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+/* Class */
+.homeSection{
+    background-image: url('../image/homeSection.webp');
+    background-size: cover;
+    min-height: 15rem;
+}
+.section-divider::before,
+.section-divider::after{
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -100px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    background: #fff;
+    background-color: #2980b9;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+}
+.section-divider{
+    margin-bottom: 100px;
+}
+
+@media (max-width:600px)  { 
+    .section-divider,
+    .section-divider::after,
+    .section-divider::before{
+        display:none;
+    }
+ }
+
